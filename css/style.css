@@ -414,3 +414,6 @@ a.twitter:hover{
     border: 1px solid chocolate;
 }
 
+.ahover:hover{
+    color: #fff;
+}
