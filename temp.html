@@ -68,7 +68,7 @@
 
             <div class="border" style="position: absolute; right: 8%; bottom:6.25rem ;">
                 <div class="container">
-                    <form action="" class="">
+                    <form name="login" action="" class="" onsubmit="return validateForm()" method="POST">
 
 
                         <div class=" container text-center">
@@ -82,7 +82,7 @@
 
                         <div class="container text-center">
                             <div style="padding-top: 20px;">
-                                <input type="text" placeholder="Email or Phone" id="search" name="fname" required
+                                <input type="email" placeholder="Your Email" id="search" name="fname" required
                                     autofocus>
                                 <i class="fas fa-user" style="padding-right: 25px; font-size: 20px; color: #fff;"></i>
                             </div>
@@ -94,7 +94,7 @@
 
                             </div>
                             <div style="padding-top: 15px; margin-left: 43px;">
-                                <button class=" btn btn-primary" type="submit"
+                                <button class=" btn btn-primary " type="submit"
                                     style="background-color: chocolate; width: 11em;">LOGIN</button>
                             </div>
                         </div>
@@ -136,7 +136,15 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
 
-
+<script>
+    function validateForm() {
+        var x = document.forms["login"]["fname"].value;
+        if (x == "") {
+            alert("username or password is not valide.");
+            return false;
+        }
+    }
+</script>
 
 </body>
 
