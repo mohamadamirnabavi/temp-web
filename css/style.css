@@ -344,7 +344,7 @@
     border-radius: 5px;
     /* padding: 100px; */
     width: 290px;
-    height: 190px;
+    height: 217px;
 }
 .pos {
     float: right;
@@ -352,23 +352,15 @@
     text-align:center;
     /* padding-top: 10px; */
 }
-.pos-tag1 {
-    padding-top: 40px;
-}
-.pos-tag2 {
-    padding-top: 8px;
-}
-.pos-tag3 {
-    padding-top: 20px;
-    font-style: italic;
-}
+
+
 #search {
     width: 11em;  height: 2em;
     text-align: left;
     
 }
 #search1 {
-    width: 13em;  height: 2em;
+    width: 11em;  height: 2em;
     
 }
 a.twitter:hover{
@@ -376,11 +368,10 @@ a.twitter:hover{
      
 }
 
-.dd1{
+.emailfild{
     background-color: rgb(206, 88, 1);
     border-radius: 5px;
-    width: 50px;
-    height: 50px;
+  
     /* text-align: center; */
 
 }
@@ -405,7 +396,7 @@ a.twitter:hover{
 /* background */
 .bg-img {
     /* The image used */
-    background-image: url("/assets/img/head-pic.jpg");
+    background-image: url("../assets/img/head-pic.jpg");
 
     /* Control the height of the image */
     min-height: 713px;
@@ -418,3 +409,8 @@ a.twitter:hover{
 }
 
 /* end background */
+.submit:hover{
+    color: #fff;
+    border: 1px solid chocolate;
+}
+

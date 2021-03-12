@@ -679,6 +679,7 @@ progress {
     padding-right: var(--bs-gutter-x, .75rem);
     margin-left: auto;
     margin-right: auto
+    
 }
 
 @media (min-width:576px) {
@@ -3150,13 +3151,13 @@ fieldset:disabled .btn {
 .btn-primary {
     color: #fff;
     background-color: #0d6efd;
-    border-color: #0d6efd
+    border-color: chocolate
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca
+    background-color: chocolate;
+    border-color: chocolate
 }
 
 .btn-check:focus+.btn-primary,
@@ -3164,7 +3165,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #c5a048;
     border-color: #c5a048;
-    box-shadow: 0 0 0 .25rem #c5a048
+    
 }
 
 .btn-check:active+.btn-primary,
