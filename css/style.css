@@ -344,7 +344,7 @@
     border-radius: 5px;
     /* padding: 100px; */
     width: 290px;
-    height: 217px;
+    height: 222px;
 }
 .pos {
     float: right;
@@ -399,7 +399,7 @@ a.twitter:hover{
     background-image: url("../assets/img/head-pic.jpg");
 
     /* Control the height of the image */
-    min-height: 713px;
+    min-height: 130vh;
 
     /* Center and scale the image nicely */
     background-position: center;
