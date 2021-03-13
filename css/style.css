@@ -417,3 +417,10 @@ a.twitter:hover{
 .ahover:hover{
     color: #fff;
 }
+
+
+.btnhover:hover{
+        color: #c5a048;
+        background-color: #c5a048;
+        border-color: #c5a048;
+}
